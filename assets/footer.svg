@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-labelledby="t d">
+  <title id="t">Thanks for stopping by</title>
+  <desc id="d">Thanks for stopping by. Let's build something that survives production.</desc>
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22b8a6"/><stop offset="1" stop-color="#3ddc97"/></linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#9ff5c9"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity=".25"/></linearGradient>
+    <mask id="m"><rect width="1200" height="200" fill="url(#fade)"/></mask>
+    <clipPath id="c"><rect width="1200" height="200" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; }
+    .wa { animation: drift 14s linear infinite; }
+    .wb { animation: drift 9s linear infinite reverse; }
+    .wc { animation: drift 20s linear infinite; }
+    @keyframes drift { to { transform: translateX(-600px); } }
+    .steam { fill: none; stroke: #9ff5c9; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 14 60; animation: steam 2.8s ease-in-out infinite; opacity: 0; }
+    .s2 { animation-delay: 1.4s; }
+    @keyframes steam { 0% { stroke-dashoffset: 0; opacity: 0; } 30% { opacity: .8; } 100% { stroke-dashoffset: -60; opacity: 0; } }
+    .in { animation: in 1s ease-out both; }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } }
+  </style>
+
+  <g clip-path="url(#c)">
+    <rect width="1200" height="200" fill="#08110d"/>
+    <g mask="url(#m)">
+      <path class="wc" d="M0 120 Q150 104 300 120 T600 120 T900 120 T1200 120 T1500 120 T1800 120 V200 H0 Z" fill="#22b8a6" opacity=".18"/>
+      <path class="wa" d="M0 140 Q150 118 300 140 T600 140 T900 140 T1200 140 T1500 140 T1800 140 V200 H0 Z" fill="url(#w1)" opacity=".35"/>
+      <path class="wb" d="M0 160 Q75 146 150 160 T300 160 T450 160 T600 160 T750 160 T900 160 T1050 160 T1200 160 T1350 160 T1500 160 T1650 160 T1800 160 V200 H0 Z" fill="url(#w2)" opacity=".55"/>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="198.5" rx="27.5" fill="none" stroke="#3ddc97" stroke-opacity=".25" stroke-width="1.5"/>
+
+  <g class="in" transform="translate(600 0)">
+    <g transform="translate(-200 30)">
+      <path class="steam" d="M10 18 C4 12 16 8 10 0"/>
+      <path class="steam s2" d="M22 18 C16 12 28 8 22 0"/>
+      <path d="M0 22 H34 C34 38 28 46 17 46 C6 46 0 38 0 22 Z" fill="#173528" stroke="#3ddc97" stroke-width="2"/>
+      <path d="M34 27 C44 27 44 39 32 40" fill="none" stroke="#3ddc97" stroke-width="2.5" stroke-linecap="round"/>
+      <ellipse cx="17" cy="22" rx="17" ry="3.5" fill="#5a2f14" stroke="#d9a066" stroke-width="1.5"/>
+    </g>
+    <text x="-148" y="66" class="sans" font-size="28" font-weight="800" fill="#eafaf2">Thanks for stopping by</text>
+    <text x="0" y="98" text-anchor="middle" class="mono" font-size="15" fill="#7fa894">let's build something that survives production<tspan fill="#3ddc97"> ;</tspan></text>
+  </g>
+</svg>

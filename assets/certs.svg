@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="132" viewBox="0 0 1000 132" role="img" aria-labelledby="t d">
+  <title id="t">Microsoft Certified</title>
+  <desc id="d">Microsoft Certified: Azure Solutions Architect Expert. Microsoft Certified: Azure Administrator Associate.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2019"/><stop offset="1" stop-color="#08110d"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe2a0"/><stop offset="1" stop-color="#e09a2a"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ff5c9"/><stop offset="1" stop-color="#22b8a6"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="c1"><rect x="0" y="0" width="490" height="132" rx="18"/></clipPath>
+    <clipPath id="c2"><rect x="510" y="0" width="490" height="132" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .shine { animation: shine 6s ease-in-out infinite; }
+    .shine.b { animation-delay: 3s; }
+    @keyframes shine { 0% { transform: translateX(-200px) skewX(-20deg); } 50%,100% { transform: translateX(1100px) skewX(-20deg); } }
+  </style>
+
+  <!-- expert -->
+  <g clip-path="url(#c1)">
+    <rect width="490" height="132" fill="url(#bg)"/>
+    <rect class="shine" x="0" y="0" width="120" height="132" fill="url(#shine)"/>
+  </g>
+  <rect x=".75" y=".75" width="488.5" height="130.5" rx="17.5" fill="none" stroke="#f2b84b" stroke-opacity=".45" stroke-width="1.5"/>
+  <g transform="translate(66 66)">
+    <path d="M0 -38 L33 -19 V19 L0 38 L-33 19 V-19 Z" fill="url(#gold)"/>
+    <path d="M0 -28 L24 -14 V14 L0 28 L-24 14 V-14 Z" fill="#0b1813" opacity=".85"/>
+    <path d="M0 -14 L4 -4 L14 -4 L6 3 L9 13 L0 7 L-9 13 L-6 3 L-14 -4 L-4 -4 Z" fill="url(#gold)"/>
+  </g>
+  <text x="122" y="44" class="sans" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#f2b84b">MICROSOFT CERTIFIED · EXPERT</text>
+  <text x="122" y="76" class="sans" font-size="23" font-weight="700" fill="#eafaf2">Azure Solutions Architect</text>
+  <text x="122" y="102" class="sans" font-size="14" fill="#7fa894">Design cloud &amp; hybrid solutions on Azure</text>
+
+  <!-- associate -->
+  <g clip-path="url(#c2)">
+    <rect x="510" width="490" height="132" fill="url(#bg)"/>
+    <rect class="shine b" x="0" y="0" width="120" height="132" fill="url(#shine)"/>
+  </g>
+  <rect x="510.75" y=".75" width="488.5" height="130.5" rx="17.5" fill="none" stroke="#3ddc97" stroke-opacity=".45" stroke-width="1.5"/>
+  <g transform="translate(576 66)">
+    <path d="M0 -38 L33 -19 V19 L0 38 L-33 19 V-19 Z" fill="url(#mint)"/>
+    <path d="M0 -28 L24 -14 V14 L0 28 L-24 14 V-14 Z" fill="#0b1813" opacity=".85"/>
+    <path d="M-12 6 L-4 -12 L4 -12 L12 6 M-8 -1 H8" fill="none" stroke="url(#mint)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="632" y="44" class="sans" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#3ddc97">MICROSOFT CERTIFIED · ASSOCIATE</text>
+  <text x="632" y="76" class="sans" font-size="23" font-weight="700" fill="#eafaf2">Azure Administrator</text>
+  <text x="632" y="102" class="sans" font-size="14" fill="#7fa894">Run, secure &amp; monitor Azure workloads</text>
+</svg>

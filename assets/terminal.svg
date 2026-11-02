@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="786" viewBox="0 0 1000 786" role="img" aria-labelledby="title desc">
+  <title id="title">menttea@cologne — about me</title>
+  <desc id="desc">Terminal: Hryhorii Yershov, Senior Software Engineer at estem GmbH, 6+ years, Cologne. Java 8–25, Spring Boot 2/3/4, WebFlux, Apache Camel, Kafka, RabbitMQ, PostgreSQL, MongoDB, React, Docker, Kubernetes, Terraform, Azure, AWS. Microsoft Certified Azure Solutions Architect Expert and Azure Administrator Associate. AI: OpenAI and Claude APIs, Claude Code, Document AI, OCR. Speaks English, German, Ukrainian, Russian. Fuelled by coffee.</desc>
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1a15"/>
+      <stop offset="1" stop-color="#08110d"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22b8a6"/>
+      <stop offset="1" stop-color="#9ff5c9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0" r="0.8">
+      <stop offset="0" stop-color="#3ddc97" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#3ddc97" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace; font-size: 16px; white-space: pre; }
+    .p  { fill: #3ddc97; font-weight: 700; }
+    .pm { fill: #5f8a76; }
+    .c  { fill: #eafaf2; }
+    .o  { fill: #c7e6d6; }
+    .k  { fill: #82aaff; }
+    .s  { fill: #f6cf7d; }
+    .v  { fill: #c7e6d6; }
+    .m  { fill: #5f8a76; font-style: italic; }
+    .ok { fill: #3ddc97; font-weight: 700; }
+
+    .type { animation: type .7s steps(22) both; }
+    @keyframes type { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    .show { animation: show .35s ease-out both; }
+    @keyframes show { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    .fill { transform-box: fill-box; transform-origin: left; animation: fill 1.6s cubic-bezier(.6,.1,.3,1) both; }
+    @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect x="1" y="1" width="998" height="784" rx="16" fill="url(#win)" stroke="#1f3a2e" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="784" rx="16" fill="url(#glow)"/>
+
+  <!-- title bar -->
+  <path d="M1 17 A16 16 0 0 1 17 1 H983 A16 16 0 0 1 999 17 V46 H1 Z" fill="#0f2019"/>
+  <line x1="1" y1="46" x2="999" y2="46" stroke="#1f3a2e" stroke-width="1.5"/>
+  <circle cx="28" cy="24" r="7" fill="#ff5f57"/>
+  <circle cx="52" cy="24" r="7" fill="#febc2e"/>
+  <circle cx="76" cy="24" r="7" fill="#28c840"/>
+  <text x="500" y="29" text-anchor="middle" style="font-size:14px" class="pm">menttea@cologne: ~ — zsh</text>
+
+  <!-- 1 -->
+  <g class="show" style="animation-delay:0.2s"><text x="32" y="86"><tspan class="p">menttea@cologne</tspan><tspan class="pm">:~$</tspan></text></g>
+  <text x="222" y="86" class="c type" style="animation-delay:0.4s;animation-timing-function:steps(6)">whoami</text>
+  <g class="show" style="animation-delay:1.2s"><text x="32" y="116"><tspan class="o">Hryhorii Yershov — Senior Software Engineer · 6+ years · Cologne, Germany</tspan></text></g>
+
+  <!-- 2 -->
+  <g class="show" style="animation-delay:1.6s"><text x="32" y="160"><tspan class="p">menttea@cologne</tspan><tspan class="pm">:~$</tspan></text></g>
+  <text x="222" y="160" class="c type" style="animation-delay:1.8s;animation-timing-function:steps(13)">cat about.yml</text>
+  <g class="show" style="animation-delay:2.7s"><text x="32" y="190"><tspan class="k">now:         </tspan><tspan class="v">senior software engineer @ estem GmbH</tspan><tspan class="m">   # since 2022</tspan></text></g>
+  <g class="show" style="animation-delay:2.9s"><text x="32" y="220"><tspan class="k">focus:       </tspan><tspan class="v">[microservices, solution architecture, system design]</tspan></text></g>
+  <g class="show" style="animation-delay:3.1s"><text x="32" y="250"><tspan class="k">java:        </tspan><tspan class="v">[8, 11, 17, 21, 25]</tspan></text></g>
+  <g class="show" style="animation-delay:3.3s"><text x="32" y="280"><tspan class="k">spring:      </tspan><tspan class="v">[boot 2/3/4, data jpa, security, cloud apps, openfeign]</tspan></text></g>
+  <g class="show" style="animation-delay:3.5s"><text x="32" y="310"><tspan class="k">reactive:    </tspan><tspan class="v">[webflux, rxjava, reactor kafka, websocket]</tspan></text></g>
+  <g class="show" style="animation-delay:3.7s"><text x="32" y="340"><tspan class="k">integration: </tspan><tspan class="v">[apache camel, kafka, rabbitmq, activemq, rest]</tspan></text></g>
+  <g class="show" style="animation-delay:3.9s"><text x="32" y="370"><tspan class="k">apis:        </tspan><tspan class="v">[openapi/swagger, contract-first, keycloak/oauth2]</tspan></text></g>
+  <g class="show" style="animation-delay:4.1s"><text x="32" y="400"><tspan class="k">data:        </tspan><tspan class="v">[postgresql, mongodb, mariadb, mysql, flyway, liquibase]</tspan></text></g>
+  <g class="show" style="animation-delay:4.3s"><text x="32" y="430"><tspan class="k">testing:     </tspan><tspan class="v">[junit 5, mockito, testcontainers, wiremock, jmeter]</tspan></text></g>
+  <g class="show" style="animation-delay:4.5s"><text x="32" y="460"><tspan class="k">frontend:    </tspan><tspan class="v">[typescript, react, material ui, vite]</tspan></text></g>
+  <g class="show" style="animation-delay:4.7s"><text x="32" y="490"><tspan class="k">devops:      </tspan><tspan class="v">[docker, kubernetes, helm, terraform, ansible, jenkins]</tspan></text></g>
+  <g class="show" style="animation-delay:4.9s"><text x="32" y="520"><tspan class="k">cloud:       </tspan><tspan class="v">[azure, aws, hetzner, nginx]</tspan></text></g>
+  <g class="show" style="animation-delay:5.1s"><text x="32" y="550"><tspan class="k">certs:       </tspan><tspan class="s">[azure solutions architect expert, azure administrator]</tspan></text></g>
+  <g class="show" style="animation-delay:5.3s"><text x="32" y="580"><tspan class="k">ai:          </tspan><tspan class="s">[openai api, claude api, claude code, document ai, ocr]</tspan></text></g>
+  <g class="show" style="animation-delay:5.5s"><text x="32" y="610"><tspan class="k">speaks:      </tspan><tspan class="v">[english, german, ukrainian, russian]</tspan></text></g>
+  <g class="show" style="animation-delay:5.7s"><text x="32" y="640"><tspan class="k">fuel:        </tspan><tspan class="s">coffee</tspan><tspan class="m">   # what else did you expect to see here? =)</tspan></text></g>
+
+  <!-- 3 -->
+  <g class="show" style="animation-delay:6.3s"><text x="32" y="684"><tspan class="p">menttea@cologne</tspan><tspan class="pm">:~$</tspan></text></g>
+  <text x="222" y="684" class="c type" style="animation-delay:6.5s;animation-timing-function:steps(25)">./brew --coffee --shots=2</text>
+  <g class="show" style="animation-delay:7.4s">
+    <rect x="32" y="700" width="240" height="18" rx="9" fill="#10211a" stroke="#1f3a2e"/>
+    <rect class="fill" x="34" y="702" width="236" height="14" rx="7" fill="url(#bar)" style="animation-delay:7.6s"/>
+  </g>
+  <g class="show" style="animation-delay:9.2s"><text x="290" y="714"><tspan class="ok">✓ 100%</tspan><tspan class="o">  coffee is ready — let's ship it</tspan></text></g>
+
+  <!-- 4 -->
+  <g class="show" style="animation-delay:9.8s">
+    <text x="32" y="758"><tspan class="p">menttea@cologne</tspan><tspan class="pm">:~$</tspan></text>
+    <rect class="cursor" x="222" y="743" width="10" height="20" rx="2" fill="#3ddc97"/>
+  </g>
+</svg>
+
+
+
+

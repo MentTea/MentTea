@@ -1,0 +1,4 @@
+dist/
+.preview/
+.claude/
+node_modules/
