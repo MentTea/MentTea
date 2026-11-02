@@ -104,12 +104,12 @@
 
 ## 📊 GitHub activity
 
-<img src="https://raw.githubusercontent.com/MentTea/github-profile/output/stats.svg" width="100%" alt="GitHub activity: contributions, streak, top languages, last 52 weeks">
+<img src="https://raw.githubusercontent.com/MentTea/MentTea/output/stats.svg" width="100%" alt="GitHub activity: contributions, streak, top languages, last 52 weeks">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MentTea/github-profile/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MentTea/github-profile/output/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/MentTea/github-profile/output/snake-dark.svg" width="100%" alt="Contribution snake">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MentTea/MentTea/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MentTea/MentTea/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/MentTea/MentTea/output/snake-dark.svg" width="100%" alt="Contribution snake">
 </picture>
 
 <br>
