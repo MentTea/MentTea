@@ -8,6 +8,8 @@ import { fileURLToPath } from 'node:url';
 
 const TOKEN = process.env.GH_TOKEN;
 const USER = process.env.GH_USER || 'MentTea';
+// the profile repo's own scripts shouldn't count as a language
+const SELF = (process.env.GITHUB_REPOSITORY || '').split('/')[1] || 'github-profile';
 const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
 if (!TOKEN) throw new Error('GH_TOKEN is not set');
 
@@ -33,6 +35,7 @@ const { user } = await gql(`query($login: String!) {
     repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
       totalCount
       nodes {
+        name
         stargazerCount
         languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name color } } }
       }
@@ -81,6 +84,7 @@ for (let i = Math.max(0, past.length - 52 * 7); i < past.length; i += 7) {
 
 const langs = new Map();
 for (const r of user.repositories.nodes) {
+  if (r.name === SELF) continue;
   for (const e of r.languages.edges) {
     const l = langs.get(e.node.name) || { size: 0, color: e.node.color };
     l.size += e.size;
