@@ -32,15 +32,16 @@
   </g>
   <rect x=".75" y=".75" width="1198.5" height="198.5" rx="27.5" fill="none" stroke="#3ddc97" stroke-opacity=".25" stroke-width="1.5"/>
 
-  <g class="in" transform="translate(600 0)">
-    <g transform="translate(-200 30)">
+  <g transform="translate(600 0)"><g class="in">
+    <g transform="translate(-250 34)">
       <path class="steam" d="M10 18 C4 12 16 8 10 0"/>
       <path class="steam s2" d="M22 18 C16 12 28 8 22 0"/>
       <path d="M0 22 H34 C34 38 28 46 17 46 C6 46 0 38 0 22 Z" fill="#173528" stroke="#3ddc97" stroke-width="2"/>
       <path d="M34 27 C44 27 44 39 32 40" fill="none" stroke="#3ddc97" stroke-width="2.5" stroke-linecap="round"/>
       <ellipse cx="17" cy="22" rx="17" ry="3.5" fill="#5a2f14" stroke="#d9a066" stroke-width="1.5"/>
     </g>
-    <text x="-148" y="66" class="sans" font-size="28" font-weight="800" fill="#eafaf2">Thanks for stopping by</text>
-    <text x="0" y="98" text-anchor="middle" class="mono" font-size="15" fill="#7fa894">let's build something that survives production<tspan fill="#3ddc97"> ;</tspan></text>
+    <text x="-190" y="62" class="sans" font-size="28" font-weight="800" fill="#eafaf2">Thanks for stopping by</text>
+    <text x="-190" y="92" class="mono" font-size="15" fill="#7fa894">let's build something that survives production<tspan fill="#3ddc97"> ;</tspan></text>
+  </g>
   </g>
 </svg>
