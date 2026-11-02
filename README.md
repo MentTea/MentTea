@@ -114,4 +114,4 @@
 
 <br>
 
-<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by — let's build something that survives production">
+<img src="assets/footer.svg?v=2" width="100%" alt="Thanks for stopping by — let's build something that survives production">
