@@ -100,7 +100,7 @@
     <text x="78" y="176" font-size="62" font-weight="800" fill="#eafaf2" letter-spacing="-1">Hryhorii Yershov</text>
   </g>
   <g class="sans rise d3">
-    <text x="80" y="226" font-size="30" font-weight="600" fill="url(#mint)">Senior Software Engineer</text>
+    <text x="80" y="226" font-size="30" font-weight="600"><tspan fill="#9ff5c9">Senior </tspan><tspan fill="#3ddc97">Software </tspan><tspan fill="#2fcaa0">Engineer</tspan></text>
     <text x="470" y="226" font-size="18" font-weight="500" fill="#7fa894">· 6+ yrs · Cologne, DE</text>
   </g>
 
