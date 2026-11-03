@@ -166,7 +166,9 @@
     </g>
 
     <!-- coffee bean on the cup -->
-    <g transform="translate(930 264) rotate(-30)" filter="url(#glow)">
+    <g transform="translate(930 264) rotate(-30)">
+      <ellipse rx="32" ry="41" fill="#f2b84b" opacity=".12"/>
+      <ellipse rx="27" ry="36" fill="#f2b84b" opacity=".22"/>
       <ellipse rx="22" ry="31" fill="#f2b84b"/>
       <path d="M2 -27 C-12 -12 12 10 -2 27" fill="none" stroke="#0c1b15" stroke-width="4" stroke-linecap="round"/>
     </g>
